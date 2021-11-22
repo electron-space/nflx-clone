@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-black">
       <Head>
-        <title>Netflix Clone</title>
+        <title>Netflix Clone Landing</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -19,7 +19,10 @@ export default function Home() {
           Ready to watch? Enter your email to create or restart your membership.
         </p>
         <div className="flex mt-4">
-          <input placeholder="Email address" className="bg-white p-4" />
+          <input
+            placeholder="Email address"
+            className="bg-white p-4 min-w-[400px]"
+          />
           <button className=" flex items-center bg-[#e50914] text-white text-xl px-8">
             Get Started
             <svg
